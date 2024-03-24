@@ -1,6 +1,6 @@
-import { useRef ,useEffect} from "react"
+import { useEffect, useRef } from "react";
+
 const Board = () => {
-    // setup redux  
     const canvasRef = useRef(null)
 
     useEffect(() => {
@@ -16,7 +16,6 @@ const Board = () => {
 
     return (<canvas ref={canvasRef}></canvas>
     )
-
 }
 
-export default Board
+export default Board;
